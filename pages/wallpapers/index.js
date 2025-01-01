@@ -1,11 +1,8 @@
-import NextLink from 'next/link'
-import { Box, Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
+import { Box, Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
-import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/ls-13.jpg'
-import thumbMachiya from '../../public/images/wallpapers/machiya/ls-03.jpg'
 import dark1 from '../../public/images/wallpapers/dark1.jpg'
 
 const Wallpapers = () => (

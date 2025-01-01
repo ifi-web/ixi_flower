@@ -1,13 +1,13 @@
 import {
   Container,
-  Heading,
-  AspectRatio,
-  Box,
-  useColorModeValue
+  Heading
+  // AspectRatio,
+  // Box,
+  // useColorModeValue
 } from '@chakra-ui/react'
-import { Title, LegalLinks } from '../../components/wallpaper'
-import { BuyButton } from '../../components/payhip'
-import P from '../../components/paragraph'
+import { Title } from '../../components/wallpaper' // LegalLinks
+// import { BuyButton } from '../../components/payhip'
+// import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import WallpaperThumbnailList from '../../components/wallpaper-thumbnail-list'
 

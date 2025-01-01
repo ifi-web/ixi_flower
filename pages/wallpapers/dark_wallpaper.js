@@ -5,7 +5,7 @@ import {
   // Box,
   // useColorModeValue
 } from '@chakra-ui/react'
-import { Title, LegalLinks } from '../../components/wallpaper'
+import { Title } from '../../components/wallpaper'
 import Layout from '../../components/layouts/article'
 import WallpaperThumbnailList from '../../components/wallpaper-thumbnail-list'
 

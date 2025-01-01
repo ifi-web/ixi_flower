@@ -3,14 +3,13 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  AspectRatio
+  ListItem
+  // AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import ixiflowerwebsite from '../../public/images/ixi_flower_website.jpg'
 
 const Work = () => (
   <Layout title="ixi_flower">
