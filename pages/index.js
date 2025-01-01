@@ -17,6 +17,7 @@ import Section from '../components/section'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 import Head from 'next/head'
+import Ixi_flower_image from '../public/images/ixi_flower.jpg'
 
 const Home = () => (
   <>
@@ -64,7 +65,7 @@ const Home = () => (
               overflow="hidden"
             >
               <Image
-                src="/ixi_flower.jpg"
+                src={Ixi_flower_image}
                 alt="Amirabbas Rouintan's profile picture"
                 width="100"
                 height="100"
