@@ -4,6 +4,7 @@ import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
 import dark1 from '../../public/images/wallpapers/dark1.jpg'
+import wallpaper from '../../public/images/wallpapers/B7.jpg'
 
 const Wallpapers = () => (
   <Layout title="Wallpaper Packs">
@@ -20,7 +21,7 @@ const Wallpapers = () => (
             category="wallpapers"
             id="wallpaper"
             title="Wallpapers"
-            thumbnail={thumbMachiya}
+            thumbnail={wallpaper}
           ></WorkGridItem>
           <WorkGridItem
             category="wallpapers"
