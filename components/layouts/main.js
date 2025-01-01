@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
+import Top_Image from '../../public/images/john.png'
 
 const Main = ({ children }) => {
   const router = useRouter()
@@ -31,7 +32,7 @@ const Main = ({ children }) => {
       <Container maxW="container.md" pt={14}>
         {/* Make the image responsive and slightly smaller */}
         <img
-          src="/images/john.png"
+          src={Top_Image}
           alt="nothing just john wick"
           style={{
             maxWidth: '60%',
