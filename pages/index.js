@@ -28,6 +28,19 @@ const Home = () => (
         content="Welcome to IxI Flower's portfolio. Programmer specializing in DevOps, Backend, and Cloud Computing."
       />
     </Head>
+
+    <img
+      src="/images/john.png" // Direct path starting from the root
+      alt="Nothing"
+      style={{
+        maxWidth: '60%',
+        height: 'auto',
+        width: '100%',
+        margin: '0 auto',
+        display: 'block'
+      }}
+    />
+
     <Layout>
       <Container>
         <Box
