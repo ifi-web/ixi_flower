@@ -61,5 +61,10 @@ const Works = () => (
   </Layout>
 )
 
+export async function getStaticProps() {
+  return {
+    props: {}
+  }
+}
+
 export default Works
-export { getServerSideProps } from '../components/chakra'

@@ -67,5 +67,10 @@ const Posts = () => (
   </Layout>
 )
 
+export async function getStaticProps() {
+  return {
+    props: {}
+  }
+}
+
 export default Posts
-export { getServerSideProps } from '../components/chakra'
