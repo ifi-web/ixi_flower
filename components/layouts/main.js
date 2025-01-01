@@ -33,7 +33,7 @@ const Main = ({ children }) => {
         {/* Make the image responsive and slightly smaller */}
         <img
           src={Top_Image}
-          alt="nothing just john wick"
+          alt="Nothing"
           style={{
             maxWidth: '60%',
             height: 'auto',
