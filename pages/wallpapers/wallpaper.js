@@ -89,4 +89,10 @@ const Wallpaper = () => (
 )
 
 export default Wallpaper
-export { getServerSideProps } from '../../components/chakra'
+
+export async function getStaticProps() {
+  // You can fetch data or set static content here
+  return {
+    props: {}
+  }
+}

@@ -1,10 +1,4 @@
-import {
-  Container,
-  Heading
-  // AspectRatio,
-  // Box,
-  // useColorModeValue
-} from '@chakra-ui/react'
+import { Container, Heading } from '@chakra-ui/react'
 import { Title } from '../../components/wallpaper'
 import Layout from '../../components/layouts/article'
 import WallpaperThumbnailList from '../../components/wallpaper-thumbnail-list'
@@ -87,4 +81,10 @@ const Wallpaper = () => (
 )
 
 export default Wallpaper
-export { getServerSideProps } from '../../components/chakra'
+
+export async function getStaticProps() {
+  // You can fetch data or set static content here
+  return {
+    props: {}
+  }
+}

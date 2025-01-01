@@ -36,4 +36,10 @@ const Wallpapers = () => (
 )
 
 export default Wallpapers
-export { getServerSideProps } from '../../components/chakra'
+
+// Use Static Generation for the page
+export async function getStaticProps() {
+  return {
+    props: {} // No dynamic data, hence an empty object
+  }
+}
