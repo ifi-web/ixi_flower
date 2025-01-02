@@ -18,6 +18,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 import Head from 'next/head'
 import Ixi_flower_image from '../public/images/ixi_flower.jpg'
+import Top_image from '../public/images/john.png'
 
 const Home = () => (
   <>
@@ -38,7 +39,7 @@ const Home = () => (
       }}
     >
       <Image
-        src="/images/john.png"
+        src={Top_image}
         alt="Amirabbas Rouintan's profile picture"
         width={400}
         height={400}
