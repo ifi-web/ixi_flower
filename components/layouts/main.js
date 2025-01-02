@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import Top_Image from '../../public/images/john.png'
 
 const Main = ({ children }) => {
   const router = useRouter()

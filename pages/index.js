@@ -29,17 +29,23 @@ const Home = () => (
       />
     </Head>
 
-    <img
-      src="/images/john.png" // Direct path starting from the root
-      alt=" "
+    <div
       style={{
-        maxWidth: '60%',
-        height: 'auto',
-        width: '100%',
-        margin: '0 auto',
-        display: 'block'
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        margin: '20px 0'
       }}
-    />
+    >
+      <Image
+        src="/images/john.png"
+        alt="Amirabbas Rouintan's profile picture"
+        width={400}
+        height={400}
+        loading="lazy"
+        style={{ maxWidth: '100%', height: 'auto' }}
+      />
+    </div>
 
     <Layout>
       <Container>
