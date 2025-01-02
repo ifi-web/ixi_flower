@@ -30,18 +30,6 @@ const Main = ({ children }) => {
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        {/* <img */}
-        {/*   src={Top_Image} */}
-        {/*   alt="Nothing" */}
-        {/*   style={{ */}
-        {/*     maxWidth: '60%', */}
-        {/*     height: 'auto', */}
-        {/*     width: '100%', */}
-        {/*     margin: '0 auto', */}
-        {/*     display: 'block' */}
-        {/*   }} */}
-        {/* /> */}
-        {/**/}
         {children}
 
         <Footer />

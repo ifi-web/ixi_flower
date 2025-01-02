@@ -31,6 +31,7 @@ const Home = () => (
 
     <img
       src="/images/john.png" // Direct path starting from the root
+      alt=" "
       style={{
         maxWidth: '60%',
         height: 'auto',
