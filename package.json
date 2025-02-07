@@ -1,3 +1,4 @@
+// package.json
 {
   "name": "ixi-homepage",
   "version": "1.0.0",
@@ -11,11 +12,8 @@
     "prettier": "prettier --write .",
     "lint": "next lint",
     "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --dotfiles"
   },
-  "keywords": [],
-  "author": "ixi flower",
-  "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.1",
@@ -37,3 +35,4 @@
     "prettier": "^3.0.3"
   }
 }
+

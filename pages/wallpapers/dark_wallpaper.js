@@ -11,11 +11,11 @@ const Wallpaper = () => (
         HD - 4k
       </Heading>
 
-      {Array.from({ length: 5 }, (_, i) => (
+      {['dark1', 'dark2', 'dark3', 'dark4', 'dark5'].map((imageName, index) => (
         <Image
-          key={i}
-          src={`/images/wallpapers/dark${i + 1}.jpg`}
-          alt={`Dark wallpaper ${i + 1} (Dark bg)`}
+          key={index}
+          src={`/images/wallpapers/${imageName}.jpg`}
+          alt={`Dark wallpaper ${index + 1} (Dark bg)`}
           my={4}
           borderRadius="lg"
           boxShadow="md"
@@ -26,9 +26,3 @@ const Wallpaper = () => (
 )
 
 export default Wallpaper
-
-export async function getStaticProps() {
-  return {
-    props: {}
-  }
-}
