@@ -7,7 +7,6 @@ module.exports = {
   images: {
     unoptimized: true
   },
-
   basePath: isProd ? '/ixi_flower' : '',
-  assetPrefix: isProd ? 'ixi_flower/' : ''
+  assetPrefix: isProd ? '/ixi_flower/' : ''
 }
