@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint", 
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "keywords": [],
   "author": "ixi flower",
